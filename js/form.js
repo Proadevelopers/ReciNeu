@@ -13,7 +13,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 
    let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
     *ReciNeu*%0A
-    *Consultas*%0A%0A
+    *Consultas*%0A
     *¿Cuál es tu nombre?*%0A
     ${nombrecliente}%0A
     *¿Cuál es tu apellido?*%0A
