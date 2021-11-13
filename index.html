@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Consultas.ReciNeu</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="logo.jpg" class="imgLogo" />
+
+      <h1 class="formulario__titulo">ReciNeu</h1>
+      <h3 class="formulario__subtitulo">Consulta</h3>
+      <p class="formulario__parrafo">
+        Llena este formulario con tus datos para brindarte información.
+      </p>
+
+      <label for="nombrecliente" class="formulario__label">¿Cuál es tu Nombre?</label>
+      <input
+        id="nombrecliente"
+        type="text"
+        class="formulario__input"
+        placeholder="Nombre completo"
+      />
+
+     <label for="apellidocliente" class="formulario__label">¿Cuál es tu Apellido?</label>
+      <input
+        id="apellidocliente"
+        type="text"
+        class="formulario__input"
+        placeholder="Apellido completo"
+      />
+
+     <label for="direccioncliente" class="formulario__label">¿Cúal es tu Dirección? </label>
+      <input
+        id="direccioncliente"
+        type="text"
+        class="formulario__input"
+        placeholder="Direccion para buscar los neumaticos"
+      />
+
+     
+<div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+    </form>
+    <script src="js/form.js"></script>
+  </body>
+</html>
